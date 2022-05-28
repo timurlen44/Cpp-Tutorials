@@ -24,7 +24,7 @@ int main(){
     sinif s3(s2);
 
 
-    cout<<"s1:"<< endl;
+cout<<"s1:"<< endl;
     cout<<"-----------"<<endl;
 	s1.display();
 	cout<<"-----------"<<endl<<endl;
@@ -32,7 +32,7 @@ int main(){
 	cout<<"s2:"<< endl;
 	cout<<"-----------"<<endl;
 	s2.display();
-	cout<<"-----------"<<endl;
+	cout<<"-----------"<<endl<<endl;
 
     cout<<"s3:"<< endl;
     cout<<"-----------"<<endl;
