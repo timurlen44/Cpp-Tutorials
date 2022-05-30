@@ -17,10 +17,10 @@ class myc{
 int main(){
 
 	cout<<"sinifin boyutu = "<<sizeof(myc)<<endl;
-    /*
+    	/*
 	//1) delete etmediðimiz müddetçe destructor çağırılmayacak ve belleği meşgul etmeye devam edecek
 	auto c1 = new myc;
-    */
+    	*/
 	/*
 	//2)
 	auto c1 = new myc;
@@ -28,10 +28,32 @@ int main(){
 	*/
 
 	/*
+	//3
 	//20 tane ctor çağırılacak
 	auto p{new myc[20]};
 	delete[]p;
 	*/
+	/*
+	//4
+	int row = 4;
+    	int col = 2;
+    	int counter = 0;
+    	int **ip = new int*[row];
+    	for(int i = 0;i<row;i++){
+       	 ip[i] = new int[col];
+   	 }
+    	for(int i = 0;i<row;i++){
+     	   for(int j = 0;j<col;j++){
+      	      ip[i][j] = ++counter;
+      	  }
+  	  }
 
+  	  for(int i = 0;i<row;i++){
+   	     for(int j = 0;j<col;j++){
+   	         cout<< ip[i][j]<<" ";
+     	   }
+   	     cout<<endl;
+   	 }
+	*/
 
 }
